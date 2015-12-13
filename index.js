@@ -24,7 +24,7 @@ var querystring = require('querystring');
 
 
 var db = levelup('/data/hnlink');
-const PORT=8080; 
+const PORT=8601; 
 
 function parseInfo(infoStr) {
   let bits = infoStr.split(' ');
